@@ -9,12 +9,12 @@ USAGE:
 ```
 Welcome to Randomness estimation, version 0.1
 
-'chrfile|c=s'    	## Indexed genome file; samtools faidx genome.fa > genome.fa.fai file
-'genefile|g=s' 	  ## Genefile in gff format; see sample 'extractedAliensCors'
-'bin|l=i' 		    ## Bin to check for randomness
-'size|s=i' 		    ## Size of sub-string
-'mode|m=s' 		    ## gene
-'plot|p=i' 		    ## 1 or 0
-'finicalgene|f=i' ## minimum number of gene to consider 
+'chrfile|c=s'    ## Indexed genome file; samtools faidx genome.fa > genome.fa.fai file
+'genefile|g=s'    ## Genefile in gff format; see sample 'extractedAliensCors'
+'bin|l=i'   ## Bin to check for randomness
+'size|s=i'    ## Size of sub-string
+'mode|m=s'    ## gene
+'plot|p=i'    ## 1 or 0
+'finicalgene|f=i'   ## minimum number of gene to consider 
 ```
 It will generate one directory "plotted" with all the graphs.

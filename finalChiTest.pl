@@ -57,6 +57,9 @@ GetOptions(
 
 if ((!$chrfile) or (!$genefile) or (!$bin) or(!$size) or (!$mode) or (!$finicalgene)) { print "Missing some commands!!!\n"; exit; }
 
+#Create a DIR to store all the plotted graphs
+mkdir("plotted"); 
+
 my $chrFH=read_fh($chrfile);
 while (<$chrFH>){
 my ($chr, $chrsize) = split;
@@ -158,7 +161,7 @@ $graph->set(
 ) or die $graph->error;
  
 $graph->plot($data) or die $graph->error;
-my $file = "bars_$chr.png";
+my $file = "plotted/bars_$chr.png";
 open(my $out, '>', $file) or die "Cannot open '$file' for write: $!";
 binmode $out;
 print $out $graph->gd->png;

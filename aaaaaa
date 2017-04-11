@@ -1,0 +1,36 @@
+             -R-  
+   [+] - RANDOMNESS - [+]
+
+Note: Can be used for checking randomness of any values on chromosomes
+License: Creative Commons Licence
+Bug-reports and requests to: 
+jitendra.narayanATunamur.be
+-------------------------------------------------------------------
+perl finalChiTest.pl -c renamedAdinetaV2.fa.fai -g extractedAliensCors -l 100000 -p 0 -s 100000 -m gene -p 1 -f 15 > aaaaaa
+-------------------------------------------------------------------
+scaffold_10	0.40865
+scaffold_109	0.084946
+scaffold_13	0.93436
+scaffold_131	0.0080128
+scaffold_139	0.52217
+scaffold_17	0.33259
+scaffold_18	0.086019
+scaffold_2	0.82049
+scaffold_20	0.27665
+scaffold_21	0.67352
+scaffold_28	0.34297
+scaffold_32	0.34459
+scaffold_34	0.0063809
+scaffold_37	0.47034
+scaffold_46	0.028211
+scaffold_5	0.16370
+scaffold_51	0.027842
+scaffold_55	0.31857
+scaffold_56	0.0000014206
+scaffold_6	0.000015514
+scaffold_63	0.75420
+scaffold_68	0.31517
+scaffold_7	0.057483
+scaffold_70	0.27200
+scaffold_80	0.0024166
+scaffold_96	0.52695

@@ -1,0 +1,83 @@
+             -R-  
+   [+] - RANDOMNESS - [+]
+
+Note: Can be used for checking randomness of any values on chromosomes
+License: Creative Commons Licence
+Bug-reports and requests to: 
+jitendra.narayanATunamur.be
+-------------------------------------------------------------------
+perl finalChiTest.pl -c renamedAdinetaV2.fa.fai -g extractedAliensCors -l 100000 -p 0 -s 100000 -m gene -p 1 -f 15 > aaaaaa
+-------------------------------------------------------------------
+scaffold_1	0.53210
+scaffold_10	0.40865
+scaffold_102	0.86980
+scaffold_103	0.18371
+scaffold_108	0.067661
+scaffold_109	0.084946
+scaffold_11	0.49795
+scaffold_111	0.017890
+scaffold_112	0.083481
+scaffold_117	0.36277
+scaffold_118	0.92876
+scaffold_124	0.29401
+scaffold_13	0.93436
+scaffold_131	0.0080128
+scaffold_132	0.33888
+scaffold_139	0.52217
+scaffold_147	0.33888
+scaffold_149	0.23222
+scaffold_155	0.72731
+scaffold_157	0.25181
+scaffold_16	0.053432
+scaffold_164	0.29978
+scaffold_17	0.33259
+scaffold_18	0.086019
+scaffold_181	0.46838
+scaffold_188	0.13190
+scaffold_19	0.17295
+scaffold_2	0.82049
+scaffold_20	0.27665
+scaffold_208	0.026649
+scaffold_209	0.057061
+scaffold_21	0.67352
+scaffold_218	0.76397
+scaffold_23	0.59371
+scaffold_234	0.53526
+scaffold_239	0.60653
+scaffold_24	0.33259
+scaffold_251	0.50570
+scaffold_279	0.011997
+scaffold_28	0.34297
+scaffold_281	0.016163
+scaffold_32	0.34459
+scaffold_34	0.0063809
+scaffold_344	0.015063
+scaffold_36	0.15230
+scaffold_37	0.47034
+scaffold_378	0.0094628
+scaffold_39	0.20371
+scaffold_396	0.17295
+scaffold_4	0.50855
+scaffold_41	0.54381
+scaffold_441	0.21381
+scaffold_46	0.028211
+scaffold_5	0.16370
+scaffold_50	0.041156
+scaffold_51	0.027842
+scaffold_52	0.72369
+scaffold_54	0.53640
+scaffold_55	0.31857
+scaffold_56	0.0000014206
+scaffold_6	0.000015514
+scaffold_60	0.47988
+scaffold_62	0.53640
+scaffold_63	0.75420
+scaffold_68	0.31517
+scaffold_7	0.057483
+scaffold_70	0.27200
+scaffold_74	0.72161
+scaffold_80	0.0024166
+scaffold_86	0.00055046
+scaffold_9	0.50093
+scaffold_96	0.52695
+scaffold_98	0.16768

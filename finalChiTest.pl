@@ -58,7 +58,7 @@ GetOptions(
 if ((!$chrfile) or (!$genefile) or (!$bin) or(!$size) or (!$mode) or (!$finicalgene)) { print "Missing some commands!!!\n"; exit; }
 
 #Create a DIR to store all the plotted graphs
-mkdir("plotted"); 
+if ($plot) { mkdir("plotted"); }
 
 my $chrFH=read_fh($chrfile);
 while (<$chrFH>){
@@ -171,7 +171,17 @@ close $out;
 
 sub RWelcome {
 my $VERSION = shift;
-print "\nWelcome to Randomness estimation, version $VERSION\n"; 
+print "\nWelcome to Randomness estimation, version $VERSION\n";
+
+print "
+  'chrfile|c=s'    	## Indexed genome file; samtools faidx genome.fa > genome.fa.fai file
+  'genefile|g=s' 	## Genefile in gff format; see sample 'extractedAliensCors'
+  'bin|l=i' 		## Bin to check for randomness
+  'size|s=i' 		## Size of sub-string
+  'mode|m=s' 		## gene
+  'plot|p=i' 		## 1 or 0
+  'finicalgene|f=i' 	## minimum number of gene to consider 
+";
 }
 
 sub RWho {
